@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>Description</string>
+      <string>The FlagRegisterBank component, which stores the current values of the overflow, negative, carry and zero flags.</string>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>12</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>The current value of the stored carry flag.</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Carry_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>The current value of the stored overflow flag.</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Overflow_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>The current value of the stored negative flag.</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Negative_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>The current value of the stored zero flag.</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Zero_out</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Carry</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Overflow</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Negative</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Zero</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>SetFlag</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Zero_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Negative_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Overflow_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Carry_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="-140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Carry_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Overflow_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Negative_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Zero_in</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SetFlag</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="320"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="820" y="0"/>
+      <p2 x="960" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="0"/>
+      <p2 x="760" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="320"/>
+      <p2 x="720" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="-100"/>
+      <p2 x="960" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-100"/>
+      <p2 x="760" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="100"/>
+      <p2 x="960" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="100"/>
+      <p2 x="760" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="260"/>
+      <p2 x="680" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="200"/>
+      <p2 x="960" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="200"/>
+      <p2 x="760" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-80"/>
+      <p2 x="760" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="80"/>
+      <p2 x="760" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-20"/>
+      <p2 x="760" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="20"/>
+      <p2 x="760" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="180"/>
+      <p2 x="760" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-120"/>
+      <p2 x="760" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="120"/>
+      <p2 x="760" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="220"/>
+      <p2 x="760" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="-80"/>
+      <p2 x="720" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="20"/>
+      <p2 x="720" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="220"/>
+      <p2 x="720" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="720" y="120"/>
+      <p2 x="720" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-100"/>
+      <p2 x="680" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="0"/>
+      <p2 x="680" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="200"/>
+      <p2 x="680" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="100"/>
+      <p2 x="680" y="200"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
